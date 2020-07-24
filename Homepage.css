@@ -1,0 +1,141 @@
+body{
+    margin:auto;
+}
+
+.imagecontainer{
+    background: url('food-wallpaper.png');
+    background-repeat: no-repeat;
+    border-color:white;
+    border-style: solid;
+    background-size: cover;
+
+}
+
+#logo
+{
+    font-size: 90px;
+    text-align:center;
+    color:red;
+    height:150px;
+    width:150px;
+    margin:auto;
+    background-color: white;
+    margin-top:80px;
+    margin-bottom:80px;
+    border-radius:50%;  
+}
+
+.heading{
+    text-align:center;
+    color:white;
+    font-size:36px;
+}
+
+.locationselect{
+    margin-top:20px;
+    margin-bottom:40px;
+    text-align:center;
+}
+
+.locationdropdown{
+    border:none;
+    border-radius: 0%;
+    width:250px;
+    height:60px;
+    font-size:20px;
+}
+
+
+.restaurantinput{
+    border:none;
+    border-radius: 0%;
+    width:370px;
+    height:60px;
+    font-size:20px;
+    margin-left:5px;
+}
+
+.searchicon{
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    border:1px solid gray;
+    font-weight: bold;
+    font-size:25px;
+}
+
+#s1{
+    height:30px;
+    width:30px;
+}
+
+
+.subsection{
+    margin-left:120px;
+    margin-top:55px;
+    
+}
+
+#input1{
+    position:relative;
+    left:500px;
+    height:30px;
+    width:300px;
+}
+
+#s2{
+    position:relative;
+    left:520px;
+    height:50px;
+    width:50px;
+}
+
+.subheading{
+    color:#192f60;;
+    text-align:left;
+    font-size:31px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 0.9;
+    display: inline-block;
+}
+.subheader2{
+    color:gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:19px;
+}
+.tilecomponent{
+    box-shadow: 0 3px 6px black;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width:400px;
+    height: 150px;
+    display:inline-block;    
+    background-color: white;
+}
+
+.tileimage{
+    width:50%;
+    float:left;
+}
+.tilecontent{
+    width:50%;
+    float:left;
+    margin-top:25px;
+}
+
+.tileheader{
+    text-align:left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#192f60;
+    font-size:18px;
+    font-weight: bold;
+}
+
+.tilesubheader{
+    text-align:left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:gray;
+    font-size:14px;
+}
+

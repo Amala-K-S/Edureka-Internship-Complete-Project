@@ -1,0 +1,141 @@
+body{
+    margin:auto;
+}
+.titlebar{
+    background-color: #ce0505;
+    margin:0 0 0 0;
+    padding:10px;
+    border:1px solid #ce0505;
+}
+
+#logo{
+    font-size: 50px;
+    text-align:center;
+    color:#eb2929;
+    height:70px;
+    width:70px;
+    background-color: white;
+    border-radius:50%; 
+    margin-left:100px; 
+    display: inline-block;
+}
+
+#login{
+    color:white;
+    display: inline-block;
+    margin-left:800px;
+}
+
+#create{
+    color:white;
+    display: inline-block;
+    margin-left:25px;
+    border:1px solid white;
+    padding:10px;
+}
+
+.image-gallery{
+    height: 350px;
+    width:1100px;
+    background: url(restaurant_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:50 100 0 120;
+}
+
+#gallery-button{
+    height:50px;
+    background-color:ghostwhite;
+    opacity:0.8;
+    text-align: center;
+    margin:280 10 0 870;
+    font-weight:bolder;
+    color:#192f60;
+    border-style: none;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.restaurant-details,.restaurant-description,.restaurant-contact{
+    margin-top:30px;
+    margin-left:120px;
+}
+
+h4{
+    font-size:30px;
+    color:#192f60;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.overview,.contact{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size:19px;
+    margin-left:40px;
+    color:#192f60;
+    line-height: 0.3;
+}
+
+.about{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#192f60;
+    font-weight: bold;
+    margin-top:50px;
+}
+
+.contact{
+    margin-left:70px;
+}
+
+.cuisine,.cost{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#192f60;
+    font-weight: bold;
+    margin-top:50px;
+}
+
+.cuisine-details,.cost-details{
+    font-size:17px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color:#192f60;
+}
+
+hr{
+    color:white;
+}
+.phone{
+    margin-top:60px;
+}
+
+.phone,.phone-number{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:19px;
+    margin-left:50px;
+    color:#192f60;
+    line-height:0.9;
+}
+
+.phone-number{
+    color:#f67082;
+}
+
+.address{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#192f60;
+    font-size:21px;
+    margin-left:50px;
+    margin-top:50px;
+}
+
+.full-address{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:17px;
+    margin-left:50px;
+    color:#636f88;
+    line-height: 0.3;
+}

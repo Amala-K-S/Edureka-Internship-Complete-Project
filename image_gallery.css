@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+
+.close-button{
+    height:50px;
+    width:50px;
+    margin-left:1200px;
+    margin-top:50px;
+}
+#btn1{
+    height:50px;
+    width:50px;
+    font-size:30px;
+    opacity:0.6;
+    border-radius: 50%;
+}
+
+.main-div{
+    display: inline-block;
+}
+
+.restaurant-images{
+    height:500px;
+    width:900px;
+    margin:100 0 100 100;
+    float:right;
+}
+
+.prev{
+    font-size:100px;
+    color:white;
+    display:inline-block;
+    margin-top:300px;
+    margin-left:50px;
+    opacity: 0.5;
+}
+
+.next{
+    font-size:100px;
+    color:white;
+    display:inline-block;
+    margin-top:300px;
+    margin-left:110px;
+}
